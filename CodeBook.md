@@ -6,21 +6,24 @@ subject_id: integer 1 to 30 indicating subjects
 activity: 6 different activities during which the data were collected.
             levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
             
-  +The following 86 variables are averages from the original data per subject per activity.
-  +Their name have several components:
-  +The initial letter. "t" means time domain, while "f" means frequency domain computed by FFT to time domain data.
-  +The middle or body part. 
-  + BodyAcc         : accerelation of the body
-  + GravityAcc      : 
-  + BodyAccJerk     :
-  + BodyGyro        :
-  + BodyGyroJerk    :
-  + BodyAccMag      :
-  + GravityAccMag   :
-  + BodyAccJerkMag  :
-  + BodyGyroMag     :
-  + BodyGyroJerkMag :
+ The following 86 variables are averages from the original data per subject per activity.
+ Their name have four components:
+ + The initial letter. "t" means time domain, while "f" means frequency domain computed by FFT to the time domain data.
+ + The middle part: type of measurements
+  + BodyAcc         : body acceleration
+  + GravityAcc      : gravity acceleration
+  + BodyAccJerk     : jerk signal (time differentiaion) of BodyAcc
+  + BodyGyro        : body angular velocity
+  + BodyGyroJerk    : jerk signal (time differentiaion) of BodyGyro
+  + BodyAccMag      : Euclidean norm for BodyAcc
+  + GravityAccMag   : Euclidean norm for GravityAcc
+  + BodyAccJerkMag  : Euclidean norm for BodyAccJerk
+  + BodyGyroMag     : Euclidean norm for BodyGyro
+  + BodyGyroJerkMag : Euclidean norm for BodyGyroJerk
+ + Method: mean(), meanFreq() or std()
+ + Direction: -X, -Y, or -Z
 
+Here are the actual variables included in the getdataproject.txt file
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
