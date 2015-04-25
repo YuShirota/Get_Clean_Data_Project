@@ -37,9 +37,10 @@ colnames(merged) <- c(vars, "subject_id", "activity")
 ## extract columns containing "mean", "Mean", or "std": Step 2 ##
 # first, variable names are extracted
 means <- grep("mean", names(merged), value = TRUE)
-Means <- grep("Mean", names(merged), value = TRUE)
+#Means <- grep("Mean", names(merged), value = TRUE)
 stds <- grep("std", names(merged), value = TRUE)
-cols <- c(means, Means, stds, "subject_id", "activity")
+#cols <- c(means, Means, stds, "subject_id", "activity")
+cols <- c(means, stds, "subject_id", "activity")
 # subset the "merged" data frame
 merged <- merged[, cols]
 
@@ -51,6 +52,6 @@ merged$activity <- factor(merged$activity, labels = act_labels$V2)
 
 ## average for each activity for each subject: Step 5 ##
 library(dplyr)
-dd <- group_by(merged, subject_id, activity)
-dd2 <- summarise_each(dd, funs(mean))
-write.table(dd2, file = "getdataproject.txt", row.names = FALSE)
+result <- group_by(merged, subject_id, activity)
+result2 <- summarise_each(result, funs(mean))
+write.table(result2, file = "getdataproject.txt", row.names = FALSE)
