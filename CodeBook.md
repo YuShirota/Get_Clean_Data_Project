@@ -1,10 +1,11 @@
 # Codebook for Get_Clean_Data_Project
+To specify one activity for each subject, specify the two variables below.
 
 + subject_id: integer 1 to 30 indicating subjects
 + activity: 6 different activities during which the data were collected.
             levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
             
- The names of the following 79 variables have four components:
+The names of the following 79 variables have four components:
  + The initial letter. "t" means time domain, while "f" means frequency domain computed by FFT to the time domain data.
  + The middle part: type of measurements
    + BodyAcc         : body acceleration
