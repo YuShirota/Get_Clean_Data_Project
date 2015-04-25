@@ -4,8 +4,7 @@
 + activity: 6 different activities during which the data were collected.
             levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
             
- The following 79 variables are averages from the original data per subject per activity.
- Their name have four components:
+ The names of the following 79 variables have four components:
  + The initial letter. "t" means time domain, while "f" means frequency domain computed by FFT to the time domain data.
  + The middle part: type of measurements
    + BodyAcc         : body acceleration
