@@ -9,15 +9,15 @@
  + The initial letter. "t" means time domain, while "f" means frequency domain computed by FFT to the time domain data.
  + The middle part: type of measurements
    + BodyAcc         : body acceleration
-   + GravityAcc      : gravity acceleration
-   + BodyAccJerk     : jerk signal (time differentiaion) of BodyAcc
-   + BodyGyro        : body angular velocity
-   + BodyGyroJerk    : jerk signal (time differentiaion) of BodyGyro
-   + BodyAccMag      : Euclidean norm for BodyAcc
-   + GravityAccMag   : Euclidean norm for GravityAcc
-   + BodyAccJerkMag  : Euclidean norm for BodyAccJerk
-   + BodyGyroMag     : Euclidean norm for BodyGyro
-   + BodyGyroJerkMag : Euclidean norm for BodyGyroJerk
+    + GravityAcc      : gravity acceleration
+    + BodyAccJerk     : jerk signal (time differentiaion) of BodyAcc
+    + BodyGyro        : body angular velocity
+    + BodyGyroJerk    : jerk signal (time differentiaion) of BodyGyro
+    + BodyAccMag      : Euclidean norm for BodyAcc
+    + GravityAccMag   : Euclidean norm for GravityAcc
+    + BodyAccJerkMag  : Euclidean norm for BodyAccJerk
+    + BodyGyroMag     : Euclidean norm for BodyGyro
+    + BodyGyroJerkMag : Euclidean norm for BodyGyroJerk
  + Method: mean(), meanFreq() or std()
  + Direction: -X, -Y, or -Z
 
