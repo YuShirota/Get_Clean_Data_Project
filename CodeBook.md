@@ -1,13 +1,5 @@
 # Codebook for Get_Clean_Data_Project
-1. Data cleaning applied here
-+ "train" and "test" data sets are merged, resulting in a dataset from 30 subjects.
-+ "features" are used as variable names in the merged dataset.
-+ Features or variables with "mean" or "std" are extracted.
-+ Activity labels with numbers are replaced by strings like WALKING
-+ Averaged values are calculated for each subject for each activity.
-+ The averaged values are saved in "getdataproject.txt" file.
 
-2. Variables/data in getdataproject.txt
 + subject_id: integer 1 to 30 indicating subjects
 + activity: 6 different activities during which the data were collected.
             levels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
