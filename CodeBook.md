@@ -21,7 +21,8 @@
  + Method: mean(), meanFreq() or std()
  + Direction: -X, -Y, or -Z
 
-Here are the actual variables included in the getdataproject.txt file
+Here are the actual variables included in the getdataproject.txt file.
+
 tBodyAcc-mean()-X       tBodyAcc-mean()-Y       tBodyAcc-mean()-Z
 tGravityAcc-mean()-X    tGravityAcc-mean()-Y    tGravityAcc-mean()-Z
 tBodyAccJerk-mean()-X   tBodyAccJerk-mean()-Y   tBodyAccJerk-mean()-Z
